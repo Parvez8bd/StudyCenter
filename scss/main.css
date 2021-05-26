@@ -1,0 +1,196 @@
+.navtion {
+  background: #43A047;
+}
+
+.navtion img {
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+}
+
+.navtion h1 {
+  font-family: 'Kaushan Script', cursive;
+  color: white;
+  padding-left: 10px;
+  padding-top: 12px;
+  font-size: 2em;
+}
+
+.navtion h1 .logu-olor-1 {
+  color: #ffffff;
+}
+
+.navtion h1 .logu-olor-2 {
+  color: #ffffff;
+}
+
+.navtion .search-fild {
+  width: 35em;
+  font-size: 13px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  top: 14px;
+  position: absolute;
+  display: block;
+  margin-left: 120px;
+}
+
+.navtion .search-img {
+  position: relative;
+  font-size: 1.5em;
+  top: 16px;
+  margin-left: 128px;
+  cursor: pointer;
+  opacity: 0.3;
+}
+
+.navtion ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 20px 0px 0 10px;
+}
+
+.navtion ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 2px 8px;
+  display: block;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.navtion ul li a:hover {
+  background: #1B5E20;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.navtion ul li a .icon1 {
+  top: 20px;
+}
+
+.navtion ul li .dropbtn {
+  background-color: #1B5E20;
+  color: white;
+  padding: 5px 15px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.extra-menu {
+  width: 0;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#81C784), to(#43A047));
+  background-image: linear-gradient(#81C784, #43A047);
+}
+
+.extra-menu .closebtn {
+  text-decoration: none;
+  display: block;
+  font-size: 50px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  color: #e0d7d7;
+  margin-top: 10px;
+  margin-left: 180px;
+  position: absolute;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.extra-menu .closebtn:hover {
+  color: white;
+}
+
+.extra-menu ul {
+  margin-top: 75px;
+  position: relative;
+}
+
+.extra-menu ul li {
+  list-style: none;
+  padding: 10px 0;
+}
+
+.extra-menu ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 2px 8px;
+  display: block;
+  font-size: 26px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.extra-menu ul li a:hover {
+  background: #1B5E20;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+section {
+  background: #EEEFF3;
+  text-align: center;
+}
+
+section p {
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 90px;
+  font-family: 'Roboto Slab', serif;
+}
+
+section h3 {
+  font-family: 'Ubuntu', sans-serif;
+  margin-top: 30px;
+  font-size: 1.5em;
+  color: #0076FA;
+  border-radius: 4px;
+  padding: 10px 0;
+  text-transform: uppercase;
+}
+
+section .search-fild {
+  width: 31em;
+  font-size: 16px;
+  padding: 20px 20px 20px 40px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  top: 400px;
+  position: absolute;
+  display: block;
+  margin-left: 20px;
+}
+
+section .search-img {
+  position: relative;
+  width: 50px;
+  top: -17px;
+  margin-left: -450px;
+  cursor: pointer;
+}
+
+section h4 {
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+section img {
+  margin-top: 70px;
+  width: 100%;
+}
+/*# sourceMappingURL=main.css.map */
