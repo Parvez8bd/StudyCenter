@@ -1,5 +1,8 @@
 .navtion {
   background: #43A047;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
 .navtion img {
@@ -12,16 +15,13 @@
   font-family: 'Kaushan Script', cursive;
   color: white;
   padding-left: 10px;
-  padding-top: 12px;
+  margin-top: 15px;
   font-size: 2em;
 }
 
-.navtion h1 .logu-olor-1 {
-  color: #ffffff;
-}
-
-.navtion h1 .logu-olor-2 {
-  color: #ffffff;
+.navtion h1 a {
+  color: white;
+  text-decoration: none;
 }
 
 .navtion .search-fild {
@@ -38,9 +38,9 @@
 
 .navtion .search-img {
   position: relative;
-  font-size: 1.5em;
-  top: 16px;
-  margin-left: 128px;
+  font-size: 1.2em;
+  top: 23px;
+  margin-left: 130px;
   cursor: pointer;
   opacity: 0.3;
 }
@@ -54,7 +54,7 @@
 .navtion ul li a {
   color: white;
   text-decoration: none;
-  padding: 2px 8px;
+  padding: 5px 15px;
   display: block;
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
@@ -65,7 +65,7 @@
 
 .navtion ul li a:hover {
   background: #1B5E20;
-  padding: 2px 8px;
+  padding: 5px 15px;
   border-radius: 4px;
 }
 
@@ -91,14 +91,13 @@
   top: 0;
   right: 0;
   z-index: 2;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#81C784), to(#43A047));
-  background-image: linear-gradient(#81C784, #43A047);
+  background: #43A047;
 }
 
 .extra-menu .closebtn {
   text-decoration: none;
   display: block;
-  font-size: 50px;
+  font-size: 40px;
   font-family: 'Roboto', sans-serif;
   font-weight: 600;
   color: #e0d7d7;
@@ -120,7 +119,7 @@
 
 .extra-menu ul li {
   list-style: none;
-  padding: 10px 0;
+  padding: 3px 0;
 }
 
 .extra-menu ul li a {
@@ -128,9 +127,9 @@
   text-decoration: none;
   padding: 2px 8px;
   display: block;
-  font-size: 26px;
+  font-size: 16px;
   font-family: 'Roboto', sans-serif;
-  font-weight: 600;
+  font-weight: 400;
   -webkit-transition: .5s;
   transition: .5s;
 }
@@ -144,6 +143,8 @@
 section {
   background: #EEEFF3;
   text-align: center;
+  height: 100vh;
+  padding-top: 70px;
 }
 
 section p {
@@ -178,19 +179,661 @@ section .search-fild {
 
 section .search-img {
   position: relative;
-  width: 50px;
-  top: -17px;
-  margin-left: -450px;
+  font-size: 1.2em;
+  top: 3.6em;
+  margin-left: -460px;
   cursor: pointer;
+  opacity: 0.3;
 }
 
 section h4 {
-  margin-top: 30px;
-  margin-bottom: 80px;
+  margin-top: 120px;
 }
 
 section img {
   margin-top: 70px;
   width: 100%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.scolld {
+  margin-top: 5px;
+  height: 320px;
+}
+
+.scolld .scolld-content {
+  background: #d3d4d8;
+  border-radius: 4px;
+  margin-top: -20px;
+}
+
+.scolld .scolld-content i {
+  font-size: 80px;
+  color: #1B5E20;
+  padding-top: 20px;
+}
+
+.scolld .scolld-content h1 {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  margin-bottom: 30px;
+  margin-top: -1px;
+  padding-top: 30px;
+  color: #3b3a3a;
+}
+
+.scolld .scolld-content h5 {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  margin-top: -20px;
+  padding-bottom: 10px;
+}
+
+.popular-course {
+  text-align: center;
+}
+
+.popular-course h1 {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.popular-course .content-area {
+  background: #EEEFF3;
+  border-radius: 4px;
+  margin-bottom: 50px;
+}
+
+.popular-course .content-area img {
+  width: 340px;
+  height: 220px;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+
+.popular-course .content-area h3 {
+  font-family: 'Ubuntu', sans-serif;
+  padding: 10px 0;
+}
+
+.popular-course .content-area h5 {
+  text-align: left;
+  margin-left: 30px;
+  padding: 3px 0;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Roboto Slab', serif;
+}
+
+.popular-course .content-area h5 span {
+  padding-right: 15px;
+}
+
+.popular-course .content-area .start-btn {
+  background-color: #1B5E20;
+  color: white;
+  padding: 5px 15px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  border-radius: 4px;
+  margin: 20px 0;
+  display: inline-block;
+}
+
+.popular-course .content-area .start-btn span {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.new-course {
+  text-align: center;
+  background: #EEEFF3;
+}
+
+.new-course h1 {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.new-course .content-area {
+  background: #d3d4d8;
+  border-radius: 4px;
+  margin-bottom: 50px;
+}
+
+.new-course .content-area img {
+  width: 340px;
+  height: 220px;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+
+.new-course .content-area h3 {
+  font-family: 'Ubuntu', sans-serif;
+  padding: 10px 0;
+}
+
+.new-course .content-area h5 {
+  text-align: left;
+  margin-left: 30px;
+  padding: 3px 0;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Roboto Slab', serif;
+}
+
+.new-course .content-area h5 span {
+  padding-right: 15px;
+}
+
+.new-course .content-area .start-btn {
+  background-color: #1B5E20;
+  color: white;
+  padding: 5px 15px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  border-radius: 4px;
+  margin: 20px 0;
+  display: inline-block;
+}
+
+.new-course .content-area .start-btn span {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.s-stayle {
+  width: 280px;
+  height: 8px;
+  background: #1B5E20;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.slider {
+  padding-bottom: 30px;
+}
+
+.slider img {
+  width: 150px;
+}
+
+.footer {
+  background: #43A047;
+}
+
+.footer .footer-content {
+  text-align: center;
+}
+
+.footer .footer-content h1 {
+  font-family: 'Kaushan Script', cursive;
+  color: white;
+  margin-top: 15px;
+  font-size: 2em;
+  text-align: left;
+}
+
+.footer .footer-content ul {
+  padding: 0%;
+  margin: 0%;
+  text-align: left;
+}
+
+.footer .footer-content ul li {
+  display: inline-block;
+  padding: 10px 5px 10px 0px;
+}
+
+.footer .footer-content ul li a ion-icon {
+  font-size: 30px;
+  color: #eeeaea;
+  text-align: left;
+  padding-right: 10px;
+}
+
+.footer .footer-content p {
+  text-align: left;
+  color: white;
+  padding-top: 3px;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: 'Roboto Slab', serif;
+}
+
+.footer .footer-content h4 {
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  margin-top: 25px;
+  margin-left: 15px;
+  font-size: 1.5em;
+  text-align: left;
+}
+
+.footer .footer-content .last-item {
+  padding: 12px 0px 10px 0;
+}
+
+.footer .footer-content .last-item a {
+  text-decoration: none;
+  color: #dfdddd;
+  padding: 2px 0px;
+  display: block;
+  text-align: left;
+  margin-left: 17px;
+  font-weight: 600;
+}
+
+.footer .footer-content .last-item a:hover {
+  color: white;
+}
+
+.footer .footer-content .roller {
+  background: white;
+  width: 1120px;
+  height: 1px;
+  margin: 0 auto;
+  margin-top: -12px;
+}
+
+.footer .footer-content h6 {
+  font-size: 15px;
+  color: white;
+  display: inline-block;
+  margin-top: -10px;
+}
+
+.footer .footer-content h6 a {
+  color: white;
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.course-homepage {
+  text-align: left;
+  height: inherit;
+}
+
+.course-homepage .course-name {
+  color: black;
+  text-align: left;
+  margin-top: 020px;
+  padding: 0;
+}
+
+.course-homepage p {
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left;
+  padding-top: 10px;
+  font-family: 'Roboto Slab', serif;
+}
+
+.course-homepage .teachers-name {
+  font-size: 18px;
+}
+
+.course-homepage .teachers-name a {
+  font-weight: 400;
+}
+
+.course-homepage .date p {
+  display: inline-block;
+  padding-right: 30px;
+}
+
+.course-homepage .date p i {
+  padding-right: 5px;
+}
+
+.course-homepage .faq-item {
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+.course-homepage .faq-item h2 {
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.course-homepage .faq-item p span {
+  font-family: 'Kaushan Script', cursive;
+}
+
+.course-homepage .course-page-right-side {
+  background: white;
+  margin-top: 30px;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.course-homepage .course-page-right-side iframe {
+  width: 430px;
+  height: 220px;
+  margin-top: 10px;
+  margin-left: 2.5%;
+  border-radius: 4px;
+}
+
+.course-homepage .course-page-right-side .prise {
+  margin-top: -10px;
+}
+
+.course-homepage .course-page-right-side .prise .taka {
+  font-family: 'Ubuntu', sans-serif;
+  padding-left: 30px;
+}
+
+.course-homepage .course-page-right-side .prise .taka del {
+  padding-right: 10px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.course-homepage .course-page-right-side .prise .doller {
+  padding-right: 30px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.course-homepage .course-page-right-side .prise .doller del {
+  padding-right: 10px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.course-homepage .course-page-right-side h5 {
+  text-align: left;
+  margin-left: 50px;
+  padding: 3px 0;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Roboto Slab', serif;
+}
+
+.course-homepage .course-page-right-side h5 span {
+  padding-right: 15px;
+}
+
+.course-homepage .course-page-right-side .course-btn .start-btn1 {
+  background-color: #1B5E20;
+  color: white;
+  padding: 5px 15px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  border-radius: 4px;
+  margin: 20px 0 20px 30px;
+  display: inline-block;
+}
+
+.course-homepage .course-page-right-side .course-btn .start-btn2 {
+  background-color: #1B5E20;
+  color: white;
+  padding: 5px 15px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  border-radius: 4px;
+  margin: 20px 30px 20px 0px;
+  display: inline-block;
+}
+
+.course-homepage .course-page-right-side .course-btn .start-btn2 span {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.login-homepage {
+  background: #EEEFF3;
+}
+
+.login-homepage .login-content {
+  background: #d3d4d8;
+  border-radius: 4px;
+  margin-top: 30%;
+  margin-bottom: 10%;
+}
+
+.login-homepage .login-content h1 {
+  padding-top: 50px;
+}
+
+.login-homepage .login-content p {
+  text-align: center;
+  font-size: 16px;
+}
+
+.login-homepage .login-content form {
+  text-align: center;
+}
+
+.login-homepage .login-content form .user-name {
+  width: 360px;
+  margin: 10px 0;
+  padding: 10px 10px;
+  border-radius: 4px;
+  border: none;
+}
+
+.login-homepage .login-content form .user-name:focus {
+  outline: none;
+}
+
+.login-homepage .login-content form .password {
+  width: 360px;
+  margin: 10px 0;
+  padding: 10px 10px;
+  border-radius: 4px;
+  border: none;
+}
+
+.login-homepage .login-content form .password:focus {
+  outline: none;
+}
+
+.login-homepage .login-content .space1 {
+  width: 100px;
+  height: 2px;
+  background: transparent;
+  display: inline-block;
+}
+
+.login-homepage .login-content .forgot-password {
+  text-decoration: none;
+}
+
+.login-homepage .login-content .forgot-password:hover {
+  text-decoration: underline;
+}
+
+.login-homepage .login-content .login-btn {
+  background-color: transparent;
+  color: black;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: 400;
+  width: 250px;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  border-radius: 4px;
+  border: 1px solid black;
+  margin: 40px 0;
+  display: inline-block;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.login-homepage .login-content .login-btn:hover {
+  color: white;
+  background-color: #1B5E20;
+  border: 1px solid #1B5E20;
+}
+
+.login-homepage .login-content .singup-content {
+  padding-bottom: 50px;
+  display: block;
+}
+
+.login-homepage .login-content .singup-content .singup {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #1B5E20;
+}
+
+.login-homepage .login-content .singup-content .singup:hover {
+  color: #43A047;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.login-homepage {
+  background: #EEEFF3;
+}
+
+.login-homepage .login-content {
+  background: #d3d4d8;
+  border-radius: 4px;
+  margin-top: 30%;
+  margin-bottom: 10%;
+}
+
+.login-homepage .login-content h1 {
+  padding-top: 50px;
+}
+
+.login-homepage .login-content p {
+  text-align: center;
+  font-size: 16px;
+}
+
+.login-homepage .login-content form {
+  text-align: center;
+}
+
+.login-homepage .login-content form .fast-name {
+  width: 218px;
+  margin: 10px 0;
+  padding: 10px 10px;
+  border-radius: 4px;
+  border: none;
+}
+
+.login-homepage .login-content form .fast-name:focus {
+  border: none;
+}
+
+.login-homepage .login-content form .last-name {
+  width: 218px;
+  margin: 10px 0;
+  padding: 10px 10px;
+  border-radius: 4px;
+  border: none;
+}
+
+.login-homepage .login-content form .last-name:focus {
+  border: none;
+  outline: none;
+}
+
+.login-homepage .login-content form .singup-password {
+  width: 440px;
+  margin: 10px 0;
+  padding: 10px 10px;
+  border-radius: 4px;
+  border: none;
+}
+
+.login-homepage .login-content .space1 {
+  width: 100px;
+  height: 2px;
+  background: transparent;
+  display: inline-block;
+}
+
+.login-homepage .login-content .forgot-password {
+  text-decoration: none;
+}
+
+.login-homepage .login-content .forgot-password:hover {
+  text-decoration: underline;
+}
+
+.login-homepage .login-content .singup-btn {
+  background-color: transparent;
+  color: black;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: 400;
+  width: 250px;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  border-radius: 4px;
+  border: 1px solid black;
+  margin: 40px 0;
+  display: inline-block;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.login-homepage .login-content .singup-btn:hover {
+  color: white;
+  background-color: #1B5E20;
+  border: 1px solid #1B5E20;
+}
+
+.login-homepage .login-content .singup-content {
+  padding-bottom: 50px;
+  display: block;
+}
+
+.login-homepage .login-content .singup-content .login {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #1B5E20;
+}
+
+.login-homepage .login-content .singup-content .login:hover {
+  color: #43A047;
 }
 /*# sourceMappingURL=main.css.map */

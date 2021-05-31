@@ -1,0 +1,56 @@
+.popular-course{
+    text-align: center;
+    h1{
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        cursor: pointer;
+    }
+    .content-area{
+        background: #EEEFF3;
+        border-radius: 4px;
+        margin-bottom: 50px;
+        img{
+                width: 340px;
+                height: 220px;
+                margin-top: 10px;
+                border-radius: 4px;
+        }
+            h3{
+                font-family: 'Ubuntu', sans-serif;
+                padding: 10px 0;
+            }
+            h5{
+                text-align: left;
+                margin-left: 30px;
+                padding: 3px 0;
+                font-size: 16px;
+                font-weight: 400;
+                font-family: 'Roboto Slab', serif;
+                
+                span{
+                   padding-right: 15px; 
+                }
+            }
+
+            .start-btn{
+                background-color: #1B5E20;
+                color: white;
+                padding: 5px 15px;
+                font-size: 16px;
+                font-weight: 400;
+                font-family: 'Roboto', sans-serif;
+                text-decoration: none;
+                border-radius: 4px;
+                margin: 20px 0;
+                display: inline-block;
+                span{
+                    font-size: 12px;
+                    margin-top: 5px;
+                }
+            }
+    }
+    
+}
+

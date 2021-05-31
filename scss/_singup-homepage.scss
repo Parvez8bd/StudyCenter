@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.login-homepage{
+    background: #EEEFF3;
+    .login-content{
+        background: #d3d4d8;
+        border-radius: 4px;
+        margin-top: 30%;
+        margin-bottom: 10%;
+
+        h1{
+            
+            padding-top: 50px;
+
+        }
+        p{
+            text-align: center;
+            font-size: 16px;
+        }
+        form{
+            text-align: center;
+            .fast-name{
+                width: 218px;
+                margin: 10px 0;
+                padding: 10px 10px;
+                border-radius: 4px;
+                border: none;
+                &:focus{
+                    border: none;
+                    
+                }
+            }
+
+            .last-name{
+                width: 218px;
+                margin: 10px 0;
+                padding: 10px 10px;
+                border-radius: 4px;
+                border: none;
+                &:focus{
+                    border: none;
+                    outline: none;
+                    
+                }
+            }
+            .singup-password{
+                width: 440px;
+                margin: 10px 0;
+                padding: 10px 10px;
+                border-radius: 4px;
+                border: none;
+            }
+            
+        }
+        .space1{
+            width: 100px;
+            height: 2px;
+            background: transparent;
+            display: inline-block;
+        }
+        .forgot-password{
+            text-decoration: none;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+        .singup-btn{
+            background-color: transparent;
+            // background-color: #1B5E20;
+            color: black;
+            padding: 10px 15px;
+            font-size: 16px;
+            font-weight: 400;
+            width: 250px;
+            font-family: 'Roboto', sans-serif;
+            text-decoration: none;
+            border-radius: 4px;
+            border: 1px solid black;
+            margin: 40px 0;
+            display: inline-block;
+            transition: .5s;
+            &:hover{
+                color: white;
+                background-color: #1B5E20;
+                border: 1px solid #1B5E20;
+            }
+        }
+
+        .singup-content{
+            padding-bottom: 50px;
+            display: block;
+            .login{
+                font-size: 16px;
+                font-weight: 600;
+                font-family: 'Roboto', sans-serif;
+                text-decoration: none;
+                color: #1B5E20;
+                &:hover{
+                    color: #43A047;
+                }
+            }
+        }
+    }
+}

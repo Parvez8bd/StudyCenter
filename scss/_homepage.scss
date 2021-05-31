@@ -1,6 +1,8 @@
 section{
     background: #EEEFF3;
     text-align: center;
+    height: 100vh;
+    padding-top: 70px;
     p{
         font-size: 35px;
         font-weight: 600;
@@ -31,14 +33,15 @@ section{
     }
     .search-img{
         position: relative;
-        width: 50px;
-        top: -17px;
-        margin-left: -450px;
+        font-size: 1.2em;
+        top: 3.6em;
+        margin-left: -460px;
         cursor: pointer;
+        opacity: 0.3;
     }
     h4{
-        margin-top: 30px;
-        margin-bottom: 80px;
+        margin-top: 120px;
+        
     }
 
     img{

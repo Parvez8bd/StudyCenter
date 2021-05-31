@@ -10,18 +10,16 @@
 
         <!--Font LINK start-->
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,500&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap" rel="stylesheet">
 
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <!--slick-carousel LINK-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-            <!--homepage font-->
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-        <!--Font LINK End-->
+        
 
-        <!--Font wasome LINK-->
-        <script src="https://kit.fontawesome.com/9f9ede895f.js" crossorigin="anonymous"></script>
+        
 
         <!--My CSS LINK-->
         <link rel="stylesheet" href="scss/main.css">
@@ -41,7 +39,7 @@
 
                     <!--Logu Start-->
                     <div class="col-lg-1 d-flex justify-content-start">
-                        <h1> <span class="logu-olor-1">Study</span><span class="logu-olor-2">Center</span></h1>
+                        <h1><a href="index.html">StudyCenter</a></h1>
                     </div>
                     
                     <!--Searh ber Start-->
@@ -56,12 +54,12 @@
                     <!--Menuber Start-->
                     <div class="col-lg-8">
                         <ul class="d-flex justify-content-end" >
-                            <li><a href="">Courses</a></li>
+                            <li><a href="course.html">Courses</a></li>
                             <li><a href="">About Us</a></li>
                             <li><a href="">Blog</a></li>
                             <li><a href="javascript:void(0)" id="extra-menu-ber" onclick="openNav()"><i class="fas fa-ellipsis-h icon1"></i></a></li>
                             <li>
-                                <a class="dropbtn">Join Us</a>
+                                <a class="dropbtn" href="login.html">Join Us</a>
                             </li>
                         </ul>
                     </div>
@@ -96,15 +94,15 @@
 
                     <!--Homepage left side-->
                     <div class="col-lg-6">
-                    <p>Best Teacher, Easy solution, <br>  Group study, Video & Handnote</p>
-                    <h3>Find from your Home at Our Center</h3>
+                        <p>Best Teacher, Easy solution, <br>  Group study, Video & Handnote</p>
+                        <h3>Find from your Home at Our Center</h3>
 
-                    <input type="text" class="search-fild" placeholder=" Search...">
-                    <div class="search-img">
-                        <i class="fas fa-search"></i>
-                    </div>
+                        <input type="text" class="search-fild" placeholder=" Search...">
+                        <span class="search-img">
+                            <i class="fas fa-search"></i>  
+                        </span>
 
-                    <h4>Easy to contact : +880 1521123502</h4>
+                        <h4>Easy to contact : +880 1521123502</h4>
                     </div>
 
                     <!--Homepage Right side-->
@@ -116,12 +114,290 @@
         </section>
 
 
+        <!-- Statistics Area Start -->
+        <section class="scolld">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="scolld-content">
+                            <i class="fas fa-users"></i>
+                            <h1>19,440+</h1>
+                            <h5>Users</h5>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <div class="scolld-content">
+                            <i class="fas fa-play-circle"></i>
+                            <h1>1,540+</h1>
+                            <h5>Video tutorials</h5>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <div class="scolld-content">
+                            <i class="fas fa-book"></i>
+                            <h1>1,720+</h1>
+                            <h5>Notes & Books</h5>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <div class="scolld-content">
+                            <i class="fas fa-user-tie"></i>
+                            <h1>420+</h1>
+                            <h5>Trainer</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Statistics Area End -->
+
+
+        <!-- Popular Courses Area Start -->
+        <div class="popular-course">
+            <div class="container">
+                <div class="row">
+                    <h1>Our Popular Courses</h1>
+                    <div class="col-lg-4">
+                        <div class="content-area">
+                            <img src="img/course-img1.jpg" alt="">
+                            <h3>Web Design</h3>
+                            <h5><span><i class="fas fa-feather-alt"></i></span>12 hours on-demand video</h5>
+
+                            <h5><span><i class="fas fa-feather-alt"></i></span>11 articles</h5>
+
+                            <h5><span><i class="fas fa-feather-alt"></i></span>8 downloadable resources</h5>
+
+                            <h5><span><i class="fas fa-feather-alt"></i></span>Full lifetime access</h5>
+                            
+                            <h5><span><i class="fas fa-feather-alt"></i></span>Certificate of completion</h5>
+                            
+                            <a class="start-btn" href="">Start Now <span><i class="fas fa-arrow-right"></i></span></a>
+                        </div>
+                        
+                    </div>
+
+
+                    <div class="col-lg-4">
+                        <div class="content-area">
+                            <img src="img/course-img2.jpg" alt="">
+                            <h3>Graphics Design</h3>
+                            <h5><span><i class="fas fa-feather-alt"></i></span>12 hours on-demand video</h5>
+
+                            <h5><span><i class="fas fa-feather-alt"></i></span>11 articles</h5>
+
+                            <h5><span><i class="fas fa-feather-alt"></i></span>8 downloadable resources</h5>
+
+                            <h5><span><i class="fas fa-feather-alt"></i></span>Full lifetime access</h5>
+                            
+                            <h5><span><i class="fas fa-feather-alt"></i></span>Certificate of completion</h5>
+                            
+                            <a class="start-btn" href="">Start Now <span><i class="fas fa-arrow-right"></i></span></a>
+                        </div>
+                        
+                    </div>
+
+
+                    <div class="col-lg-4">
+                        <div class="content-area">
+                            <img src="img/course-img.jpg" alt="">
+                            <h3>Spoken English</h3>
+                            <h5><span><i class="fas fa-feather-alt"></i></span>12 hours on-demand video</h5>
+
+                            <h5><span><i class="fas fa-feather-alt"></i></span>11 articles</h5>
+
+                            <h5><span><i class="fas fa-feather-alt"></i></span>8 downloadable resources</h5>
+
+                            <h5><span><i class="fas fa-feather-alt"></i></span>Full lifetime access</h5>
+                            
+                            <h5><span><i class="fas fa-feather-alt"></i></span>Certificate of completion</h5>
+                            
+                            <a class="start-btn" href="">Start Now <span><i class="fas fa-arrow-right"></i></span></a>
+                        </div>
+                        
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- New Courses Area Start -->
+        <div class="new-course">
+            <div class="container">
+                <div class="row">
+                    <h1>Our Latest
+                        Courses</h1>
+                    <div class="col-lg-4">
+                        <div class="content-area">
+                            <img src="img/ssc-img.jpg" alt="">
+                            <h3>SSC 2021</h3>
+                            <h5><span><i class="fas fa-feather-alt"></i></span>12 hours on-demand video</h5>
+
+                            <h5><span><i class="fas fa-feather-alt"></i></span>11 articles</h5>
+
+                            <h5><span><i class="fas fa-feather-alt"></i></span>8 downloadable resources</h5>
+
+                            <h5><span><i class="fas fa-feather-alt"></i></span>Full lifetime access</h5>
+                            
+                            <h5><span><i class="fas fa-feather-alt"></i></span>Certificate of completion</h5>
+                            
+                            <a class="start-btn" href="">Start Now <span><i class="fas fa-arrow-right"></i></span></a>
+                        </div>
+                        
+                    </div>
+
+
+                    <div class="col-lg-4">
+                        <div class="content-area">
+                            <img src="img/hsc-img.jpg" alt="">
+                            <h3>HSC 2021</h3>
+                            <h5><span><i class="fas fa-feather-alt"></i></span>12 hours on-demand video</h5>
+
+                            <h5><span><i class="fas fa-feather-alt"></i></span>11 articles</h5>
+
+                            <h5><span><i class="fas fa-feather-alt"></i></span>8 downloadable resources</h5>
+
+                            <h5><span><i class="fas fa-feather-alt"></i></span>Full lifetime access</h5>
+                            
+                            <h5><span><i class="fas fa-feather-alt"></i></span>Certificate of completion</h5>
+                            
+                            <a class="start-btn" href="">Start Now <span><i class="fas fa-arrow-right"></i></span></a>
+                        </div>
+                        
+                    </div>
+
+
+                    <div class="col-lg-4">
+                        <div class="content-area">
+                            <img src="img/jsc 2021.jpg" alt="">
+                            <h3>JSC 2021</h3>
+                            <h5><span><i class="fas fa-feather-alt"></i></span>12 hours on-demand video</h5>
+
+                            <h5><span><i class="fas fa-feather-alt"></i></span>11 articles</h5>
+
+                            <h5><span><i class="fas fa-feather-alt"></i></span>8 downloadable resources</h5>
+
+                            <h5><span><i class="fas fa-feather-alt"></i></span>Full lifetime access</h5>
+                            
+                            <h5><span><i class="fas fa-feather-alt"></i></span>Certificate of completion</h5>
+                            
+                            <a class="start-btn" href="">Start Now <span><i class="fas fa-arrow-right"></i></span></a>
+                        </div>
+                        
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- slick-carousel Area Start -->
+        <div class="slick-carousel">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-8">
+                        <h1>Our Partner</h1>
+                        <div class="s-stayle" ></div>
+                        <div class="slider">
+                            <div><img src="img/somoy.jpeg" alt=""></div>
+                            <div><img src="img/gp.png" alt=""></div>
+                            <div><img src="img/walton.jpg" alt=""></div>
+                            <div><img src="img/samsung.png" alt=""></div>
+                            <div><img src="img/ak.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4"></div>
+                </div>
+                
+            </div>
+
+        </div>
+
+        <!--Start footer area-->
+        <div class="footer">
+            <div class="container">
+                <div class="row footer-content">
+                    <div class=" col-lg-4">
+                        <h1>StudyCenter</h1>
+                        <ul>
+                            <li><a href="https://www.facebook.com/parvez80bd" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                            <li><a href=""><ion-icon name="logo-twitter"></ion-icon></a></li>
+                            <li><a href=""><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                            <li><a href=""><ion-icon name="logo-youtube"></ion-icon></a></li>
+                        </ul>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum excepturi voluptate repellat vel, magnam quod laborum delectus perspiciatis doloribus repellendus unde dolore quas ullam. Perspiciatis recusandae sunt quisquam error asperiores!
+                        </p>
+                    </div>
+                    <div class=" col-lg-2">
+                        <h4>Company</h4>
+                        <div class="last-item">
+                            <a href="">Who We Are</a>
+                            <a href="">Privacy Policy</a>
+                            <a href="">Terms of Use</a>   
+                        </div>
+                    </div>
+                    <div class=" col-lg-3">
+                        <h4>Special Courses</h4>
+                        <div class="last-item">
+                            <a href="">SSC Crash Course 2021</a>
+                            <a href="">HSC Crash Course 2022</a>
+                            <a href="">Bangla, ICT [Full Course]</a>   
+                            <a href="">Pre Admission Medical 2021</a>   
+                            <a href="">SSC & HSC 2022: English</a>   
+                        </div>
+                    </div>
+                    <div class=" col-lg-2">
+                        <h4>Popular</h4>
+                        <div class="last-item">
+                            <a href="">Web Design</a>
+                            <a href="">Graphics Design</a>
+                            <a href="">Spoken English</a> 
+                        </div>
+                    </div>
+                    <div class=" col-lg-1">
+                        <h4>Others</h4>
+                        <div class="last-item">
+                            <a href="">Study</a>
+                            <a href="">Notes</a>
+                            <a href="">Books</a> 
+                        </div>
+                    </div>
+                    <div class="roller"></div>
+                    <h6>Copyright©<a href="https://www.facebook.com/parvez80bd">Tarikul-Parvez</a>  2021</h6>
+                </div>
+            </div>
+        </div>
 
 
 
+
+
+        <!--Font wasome LINK-->
+        <script src="https://kit.fontawesome.com/9f9ede895f.js" crossorigin="anonymous"></script>
+
+        <!-- Ionicons -->
+        <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+        <!--slick-carousel cdn LINK-->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+        <!--java script LINK for scrolldown-->
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
 
         <!--bootstrap Js LINK-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
 
         <!--My Js LINK-->
         <script src="index.js"></script>
